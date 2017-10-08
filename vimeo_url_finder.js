@@ -1,8 +1,6 @@
 // ==UserScript==
-// @name        GATE Download
+// @name        Vimeo Download
 // @namespace   sgrpwr
-// @description Download GATE Lectures
-// @include     http://DUMMYeclassesbyravindra.com/mod/page/view.php?*
 // @include     *://*.vimeo.com/video/*
 // @version     1
 // @grant       none
