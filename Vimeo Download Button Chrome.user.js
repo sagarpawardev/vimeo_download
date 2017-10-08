@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        Vimeo Download Button
 // @namespace   sgrpwr
-// @description Download GATE Lectures
-// @include     http://eclassesbyravindra.com/mod/page/view.php?*
+// @description Download Lectures
+// @include     http://*.com/mod/page/view.php?*
 // @version     1
 // @grant       none
 // ==/UserScript==
