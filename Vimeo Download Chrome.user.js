@@ -39,7 +39,7 @@ var markup = document.documentElement.innerHTML;
 console.log('running on a frame');
 //console.log(markup);
 
-script_path = "/html/body/script[2]";
+script_path = "/html/body/script[4]";
 var script = document.evaluate( script_path ,document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null ).singleNodeValue;
 script = script.innerHTML;
 console.log('Here');
@@ -85,7 +85,6 @@ console.log("==> URL: "+url);
 
 
 //Call parent function
-var domain = "http://eclassesbyravindra.com";
 var message = url;
 console.log("Sending Message to parent...");
 window.top.postMessage(message, '*');
